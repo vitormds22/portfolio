@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(236.85deg, lightblue 27.26%, #3468A7 96.03%);
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    background: #ECF4FF;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    border-radius: 20px;
+    color: #1C1C1C;
+    margin: 64px;
+    padding: 64px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil {
+    display: flex;
+}
+
+.perfil-foto {
+    border-radius: 400px;
+    max-height: 200px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 460px;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.title h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tema button {
+    align-self: flex-end;
+    font-weight: 400;
+    font-size: 24px;  
+    padding: 8px 16px;
+  
+    background: #ECF4FF;
+    border: 2px solid #0E1D2F;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+  
+    margin-top: 45px;
+}
+
+.projects h4 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.projects-list {
+    font-weight: 400;
+    font-size: 36px;
+    list-style: none;
+    line-height: 70px;
+    width: 70%;
+}
+
+.projects-list a {
+    text-decoration: none;
+    color: #1C1C1C;
+    transition: .3s ease-in-out;  
+}
+
+.projects-list a:hover {
+    text-decoration: none;
+    color: lightgray;
+    text-shadow: 1px 1px;
+}
+
+.dark-mode {
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark-mode .container {
+    background: #333439;
+    color: #F6F6F6;
+}
+
+.dark-mode .projects {
+    color: #1C1C1C;
+}
+
+.dark-mode .tema button {
+    background: #1C1C1C;
+    color: #ffffff;
+    border: 2px solid #f7f7f7;
+}
